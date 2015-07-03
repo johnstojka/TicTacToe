@@ -14,6 +14,9 @@
 		948BAA4D1B462CC800B45C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948BAA4B1B462CC800B45C1C /* LaunchScreen.storyboard */; };
 		948BAA581B462CC800B45C1C /* Currency_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BAA571B462CC800B45C1C /* Currency_ConverterTests.swift */; };
 		948BAA631B462CC800B45C1C /* Currency_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BAA621B462CC800B45C1C /* Currency_ConverterUITests.swift */; };
+		948BAA711B462D6500B45C1C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BAA701B462D6500B45C1C /* SecondViewController.swift */; };
+		948BAA731B462DA900B45C1C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BAA721B462DA900B45C1C /* ThirdViewController.swift */; };
+		948BAA751B462DCF00B45C1C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BAA741B462DCF00B45C1C /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		948BAA5E1B462CC800B45C1C /* Currency ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		948BAA621B462CC800B45C1C /* Currency_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_ConverterUITests.swift; sourceTree = "<group>"; };
 		948BAA641B462CC800B45C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948BAA701B462D6500B45C1C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		948BAA721B462DA900B45C1C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		948BAA741B462DCF00B45C1C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				948BAA421B462CC800B45C1C /* AppDelegate.swift */,
 				948BAA441B462CC800B45C1C /* ViewController.swift */,
+				948BAA701B462D6500B45C1C /* SecondViewController.swift */,
+				948BAA721B462DA900B45C1C /* ThirdViewController.swift */,
+				948BAA741B462DCF00B45C1C /* FourthViewController.swift */,
 				948BAA461B462CC800B45C1C /* Main.storyboard */,
 				948BAA491B462CC800B45C1C /* Assets.xcassets */,
 				948BAA4B1B462CC800B45C1C /* LaunchScreen.storyboard */,
@@ -255,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948BAA711B462D6500B45C1C /* SecondViewController.swift in Sources */,
 				948BAA451B462CC800B45C1C /* ViewController.swift in Sources */,
+				948BAA731B462DA900B45C1C /* ThirdViewController.swift in Sources */,
 				948BAA431B462CC800B45C1C /* AppDelegate.swift in Sources */,
+				948BAA751B462DCF00B45C1C /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
